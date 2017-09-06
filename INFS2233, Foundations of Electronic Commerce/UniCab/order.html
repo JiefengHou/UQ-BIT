@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>UniCab</title>
+	<meta name="author" content="UniCab">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/map.js"></script> 
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid container-nav">
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
+          </button>
+          <div id="nav-title">
+            <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt="Logo" class="img-responsive"></a> 
+          </div> 
+        </div>
+        <div class="navbar-collapse collapse nav-pills">
+          <ul class="nav navbar-nav navbar-right nav-pills2">
+            <li id="home-page" class="nav-title"><a href="index.html">Home</a></li>
+            <li id="about-page" class="nav-title"><a href="about.html">About</a></li>
+            <li id="service-page" class="nav-title"><a href="service.html">Services</a></li>
+            <li id="order-page" class="nav-title active"><a href="order.html">Order</a></li>
+            <li id="login-page" class="nav-title"><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="order-title">
+        <div class="container">
+                <h1 class="header-title">Order Now</h1>
+                <h4 class="header-subtitle">Give a lift or find one</h4>                
+        </div>
+    </div>
+
+    <div class="content-order">
+    	<div class="container">
+            <div class="text">
+	            <div class="btn-group btn-group-justified order-button" role="group">
+	                <div class="btn-group" role="group">
+	                    <button type="button" class="btn btn-info active" id="button-driver">Driver</button>
+	                </div>
+	                <div class="btn-group" role="group">
+	                    <button type="button" class="btn btn-info" id="button-passenger">Passenger</button>
+	                </div>
+	            </div>
+
+                <div class="" id="driver">
+	                <ul class="nav nav-tabs">
+					  <li class="active"><a data-toggle="tab" href="#provideRouteDriver">Provide Route</a></li>
+					  <li><a data-toggle="tab" href="#findPassenger">Find Passengers</a></li>
+					</ul>
+					<div class="tab-content">
+					  	<div id="provideRouteDriver" class="tab-pane fade in active">
+						    <h3>Provide Route For Driver</h3>
+		                    <div class="well">
+		                        <form>
+		                            <div class="form-group">
+		                                <label>Depart From</label>		                             
+									   	<div class="input-group">
+									      	<input type="text" class="form-control" placeholder="UQ">
+									      	<div class="input-group-addon" title="Use Your Current Location"><span class="glyphicon glyphicon-map-marker"></span></div>
+									    </div>		                                
+		                            </div>
+		                            <div class="form-group">
+		                                <label>Arrive At</label>		                                
+									   	<div class="input-group">
+									      	<input type="text" class="form-control" placeholder="Toowong">
+									      	<div class="input-group-addon" title="Use Your Current Location"><span class="glyphicon glyphicon-map-marker"></span></div>
+									    </div>			                             
+		                            </div>
+		                            <div class="form-group">
+		                                <label>Date</label>
+									   	<div class="input-group">
+									      	<input type="text" class="form-control" placeholder="dd/MM/yy">
+									      	<div class="input-group-addon" title="Select Date"><span class="glyphicon glyphicon-calendar"></span></div>
+									    </div>			                               
+		                            </div>
+		                            <div class="form-group">
+		                                <label>Time</label>
+									   	<div class="input-group">
+		                                	<input type="text" class="form-control" placeholder="HH:ii">
+									      	<div class="input-group-addon" title="Select Time"><span class="glyphicon glyphicon-time"></span></div>
+									    </div>			                                
+		                            </div>
+		                            <div class="form-group">
+		                                <label>Fee</label>		                               
+									   	<div class="input-group">
+		                                	<input type="text" class="form-control" placeholder="fee">
+									     	<div class="input-group-addon"><span class="glyphicon glyphicon-usd"></span></div>
+									    </div>			                               
+		                            </div>			                            	                            
+		                            <div class="form-group">
+		                                <label>Additional Information</label>
+		                                <textarea class="form-control" rows="3" placeholder="more information"></textarea>
+		                            </div>
+									<button type="submit" class="btn btn-default order-button center-block">Submit</button>
+		                        </form>
+		                    </div>						    
+					  	</div>
+					  	<div id="findPassenger" class="tab-pane fade">
+					  		<h3>Find Passenger</h3>
+					  		<div class="well">
+	                            <div class="form-group">
+	                                <label>Depart From</label>		                             
+								   	<div class="input-group">
+								      	<input type="text" class="form-control" placeholder="UQ">
+								      	<div class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></div>
+								    </div>		                                
+	                            </div>
+	                            <div class="form-group">
+	                                <label>Arrive At</label>		                                
+								   	<div class="input-group">
+								      	<input type="text" class="form-control" placeholder="Toowong">
+								      	<div class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></div>
+								    </div>			                             
+	                            </div>
+	                            <div class="form-group">
+	                                <label>Date</label>
+								   	<div class="input-group">
+								      	<input type="text" class="form-control" placeholder="dd/MM/yy">
+								      	<div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+								    </div>			                               
+	                            </div>	
+	                            <button type="submit" class="btn btn-default order-button center-block" onclick="passengerInitialize()" id="fingPassengers">Find</button>
+	                            <div id="resultPassenger" class="hide">
+	                            	<h3>Results</h3>
+						            <div class="btn-group btn-group-justified" role="group">
+						                <div class="btn-group" role="group">
+						                    <button type="button" class="btn btn-default active" id="map-driver">Map</button>
+						                </div>
+						                <div class="btn-group" role="group">
+						                    <button type="button" class="btn btn-default" id="list-passenger">List</button>
+						                </div>
+						            </div>	                        
+	                            	<div id="map_canvas" style="width:100%; height:500px"></div>
+	                            	<div id="list_canvas" class="thumbnail hide">
+										<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingOne">
+										      <h4 class="panel-title">
+										        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;&nbsp;Passenger: Simon</a>
+										      </h4>
+										    </div>
+										    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+										      <div class="panel-body">
+		                                        <div class="table-map2">
+		                                            <table class="table">
+		                                                <tr>
+		                                                    <td><strong>Passenger:</strong></td>
+		                                                    <td><a href="profile.html" target="_blank">Simon</a></td>
+		                                                </tr>
+
+		                                                <tr>
+		                                                    <td><strong>Rating:</strong></td>
+		                                                    <td>4.9 (out of 5)</td>
+		                                                </tr>
+
+		                                                <tr>
+		                                                    <td><strong>Depart From:</strong></td>
+		                                                    <td>The University of Queensland</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Arrive At:</strong></td>
+		                                                    <td>Toowng</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Date:</strong></td>
+		                                                    <td>05/06/2015</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Time:</strong></td><td>12:30</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Phone:</strong></td>
+		                                                    <td>0401212120</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Additional Information:</strong></td>
+		                                                    <td>Hi, I'm Simon, nice to meet you.</td>
+		                                                </tr>
+		                                            </table>
+		                                            <button type="button" class="btn btn-danger center-block">Pick him/her</button>
+		                                        </div>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingTwo">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										          <span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;&nbsp;Passenger: Brandon</a>
+										      </h4>
+										    </div>
+										    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+										      <div class="panel-body">
+		                                        <div class="table-map2">
+		                                            <table class="table">
+		                                                <tr>
+		                                                    <td><strong>Passenger:</strong></td>
+		                                                    <td><a href="profile.html" target="_blank">Brandon</a></td>
+		                                                </tr>
+
+		                                                <tr>
+		                                                    <td><strong>Rating:</strong></td>
+		                                                    <td>4.8 (out of 5)</td>
+		                                                </tr>
+
+		                                                <tr>
+		                                                    <td><strong>Depart From:</strong></td>
+		                                                    <td>The University of Queensland</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Arrive At:</strong></td>
+		                                                    <td>Toowong</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Date:</strong></td>
+		                                                    <td>05/06/2015</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Time:</strong></td><td>16:30</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Phone:</strong></td>
+		                                                    <td>0402121965</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Additional Information:</strong></td>
+		                                                    <td>Hi, I'm Brandon, nice to meet you.</td>
+		                                                </tr>
+		                                            </table>
+		                                            <button type="button" class="btn btn-danger center-block">Pick him/her</button>
+		                                        </div>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingThree">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;&nbsp;Passenger: Alice</a>
+										      </h4>
+										    </div>
+										    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+										      <div class="panel-body">
+		                                        <div class="table-map2">
+		                                            <table class="table">
+		                                                <tr>
+		                                                    <td><strong>Passenger:</strong></td>
+		                                                    <td><a href="profile.html" target="_blank">Alice</a></td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Rating:</strong></td>
+		                                                    <td>4 (out of 5)</td>
+		                                                </tr>
+
+		                                                <tr>
+		                                                    <td><strong>Depart From:</strong></td>
+		                                                    <td>The University of Queensland</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Arrive At:</strong></td>
+		                                                    <td>Toowong</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Date:</strong></td>
+		                                                    <td>05/06/2015</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Time:</strong></td><td>8:30</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Phone:</strong></td>
+		                                                    <td>040879654</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Additional Information:</strong></td>
+		                                                    <td>Hi, I'm Alice, nice to meet you.</td>
+		                                                </tr>
+		                                            </table>
+		                                            <button type="button" class="btn btn-danger center-block">Pick him/her</button>
+		                                        </div>
+										      </div>
+										    </div>
+										  </div>
+										</div>	                            		
+	                            	</div>
+	                            </div>
+					  		</div>
+					  	</div>
+					</div>
+	            </div>
+
+                <div class="hide" id="passenger">
+	                <ul class="nav nav-tabs">
+					  <li class="active"><a data-toggle="tab" href="#provideRoutePassenger">Provide Route</a></li>
+					  <li><a data-toggle="tab" href="#findDriver">Find Driver</a></li>
+					</ul>
+					<div class="tab-content">
+					  	<div id="provideRoutePassenger" class="tab-pane fade in active">
+						    <h3>Provide a route for passenger</h3>
+                    		<div class="well">
+		                        <form>
+		                            <div class="form-group">
+		                                <label>Depart From</label>		                             
+									   	<div class="input-group">
+									      	<input type="text" class="form-control" placeholder="UQ">
+									      	<div class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></div>
+									    </div>		                                
+		                            </div>
+		                            <div class="form-group">
+		                                <label>Arrive At</label>		                                
+									   	<div class="input-group">
+									      	<input type="text" class="form-control" placeholder="Toowong">
+									      	<div class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></div>
+									    </div>			                             
+		                            </div>
+		                            <div class="form-group">
+		                                <label>Date</label>
+									   	<div class="input-group">
+									      	<input type="text" class="form-control" placeholder="dd/MM/yy">
+									      	<div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+									    </div>			                               
+		                            </div>
+		                            <div class="form-group">
+		                                <label>Time</label>
+									   	<div class="input-group">
+		                                	<input type="text" class="form-control" placeholder="HH:ii">
+									      	<div class="input-group-addon"><span class="glyphicon glyphicon-time"></span></div>
+									    </div>			                                
+		                            </div>
+		                            <button type="submit" class="btn btn-default order-button center-block">Submit</button>
+		                        </form>
+		                    </div>
+					  	</div>
+					  	<div id="findDriver" class="tab-pane fade">
+					  		<h3>Find Driver</h3>
+					  		<div class="well">
+	                            <div class="form-group">
+	                                <label>Depart From</label>		                             
+								   	<div class="input-group">
+								      	<input type="text" class="form-control" placeholder="UQ">
+								      	<div class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></div>
+								    </div>		                                
+	                            </div>
+	                            <div class="form-group">
+	                                <label>Arrive At</label>		                                
+								   	<div class="input-group">
+								      	<input type="text" class="form-control" placeholder="Toowong">
+								      	<div class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></div>
+								    </div>			                             
+	                            </div>
+	                            <div class="form-group">
+	                                <label>Date</label>
+								   	<div class="input-group">
+								      	<input type="text" class="form-control" placeholder="dd/MM/yy">
+								      	<div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+								    </div>			                               
+	                            </div>	
+	                            <button type="submit" class="btn btn-default order-button center-block" onclick="driverInitialize()" id="fingDrivers">Find</button>
+	                            <div id="resultDriver" class="hide">
+	                            	<h3>Results</h3>
+						            <div class="btn-group btn-group-justified" role="group">
+						                <div class="btn-group" role="group">
+						                    <button type="button" class="btn btn-default active" id="map-driver1">Map</button>
+						                </div>
+						                <div class="btn-group" role="group">
+						                    <button type="button" class="btn btn-default" id="list-passenger1">List</button>
+						                </div>
+						            </div>	                            	
+	                            	<div id="map_canvas1" style="width:100%; height:500px"></div>
+	                            	<div id="list_canvas1" class="thumbnail hide">
+										<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingOne1">
+										      <h4 class="panel-title">
+										        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;&nbsp;Driver: Mark</a>
+										      </h4>
+										    </div>
+										    <div id="collapseOne1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
+										      <div class="panel-body">
+		                                        <div class="table-map2">
+		                                            <table class="table">
+		                                                <tr>
+		                                                    <td><strong>Driver:</strong></td>
+		                                                    <td><a href="profile.html" target="_blank">Mark</a></td>
+		                                                </tr>
+
+		                                                <tr>
+		                                                    <td><strong>Rating:</strong></td>
+		                                                    <td>4.5 (out of 5)</td>
+		                                                </tr>
+
+		                                                <tr>
+		                                                    <td><strong>Depart From:</strong></td>
+		                                                    <td>Toowong</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Arrive At:</strong></td>
+		                                                    <td>The University of Queensland</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Date:</strong></td>
+		                                                    <td>05/06/2015</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Time:</strong></td><td>12:30</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Fee:</strong></td>
+		                                                    <td>$5</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Phone:</strong></td>
+		                                                    <td>0401212120</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Additional Information:</strong></td>
+		                                                    <td>Hi, I'm Mark, nice to meet you.</td>
+		                                                </tr>
+		                                            </table>
+		                                            <button type="button" class="btn btn-danger center-block">Ask him/her</button>
+		                                        </div>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingTwo1">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+										          <span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;&nbsp;Driver: Dylan</a>
+										      </h4>
+										    </div>
+										    <div id="collapseTwo1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo1">
+										      <div class="panel-body">
+		                                        <div class="table-map2">
+		                                            <table class="table">
+		                                                <tr>
+		                                                    <td><strong>Driver:</strong></td>
+		                                                    <td><a href="profile.html" target="_blank">Dylan</a></td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Rating:</strong></td>
+		                                                    <td>4.8 (out of 5)</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Depart From:</strong></td>
+		                                                    <td>Toowong</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Arrive At:</strong></td>
+		                                                    <td>The University of Queensland</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Date:</strong></td>
+		                                                    <td>05/06/2015</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Time:</strong></td><td>10:30</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Fee:</strong></td>
+		                                                    <td>$3</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Phone:</strong></td>
+		                                                    <td>0405647890</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Additional Information:</strong></td>
+		                                                    <td>Hi, I'm Dylan, nice to meet you.</td>
+		                                                </tr>
+		                                            </table>
+		                                            <button type="button" class="btn btn-danger center-block">Ask him/her</button>
+		                                        </div>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="panel panel-default">
+										    <div class="panel-heading" role="tab" id="headingThree1">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;&nbsp;Driver: Erica</a>
+										      </h4>
+										    </div>
+										    <div id="collapseThree1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree1">
+										      <div class="panel-body">
+		                                        <div class="table-map2">
+		                                            <table class="table">
+		                                                <tr>
+		                                                    <td><strong>Driver:</strong></td>
+		                                                    <td><a href="profile.html" target="_blank">Erica</a></td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Rating:</strong></td>
+		                                                    <td>4.9 (out of 5)</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Depart From:</strong></td>
+		                                                    <td>Toowong</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Arrive At:</strong></td>
+		                                                    <td>The University of Queensland</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Date:</strong></td>
+		                                                    <td>05/06/2015</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Time:</strong></td><td>15:30</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Fee:</strong></td>
+		                                                    <td>$4</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Phone:</strong></td>
+		                                                    <td>0409876543</td>
+		                                                </tr>
+		                                                <tr>
+		                                                    <td><strong>Additional Information:</strong></td>
+		                                                    <td>Hi, I'm Erica, nice to meet you.</td>
+		                                                </tr>
+		                                            </table>
+		                                            <button type="button" class="btn btn-danger center-block">Ask him/her</button>
+		                                        </div>
+										      </div>
+										    </div>
+										  </div>
+										</div>	                            		
+	                            	</div>	                            	
+	                            </div>
+					  		</div>
+					  	</div>
+					</div>
+                </div>
+            </div>
+    	</div>
+    </div>
+
+    <div class="footer">
+    	<div class="container">
+			<div class="row">
+				<div class="copyright">
+					<div class="row">
+						<div class="col-md-4">
+							<h4>Help Centre</h4>
+							<p>Get instant answers for the most common questions about UniCab.</p>
+		                    <a role="button" class="btn center-block" href="FAQ.html">FAQ</a>
+						</div>
+						<div class="col-md-4">
+							<h4>Follow Us</h4>
+							<p>Where to find UniCab on Facebook, Twitter, Instagram and Google Plus.</p>
+				  			<div class="social-icon">
+				 				<a href="https://www.facebook.com"><img src="images/Facebook.png" alt="Facebook"></a>
+				 				<a href="https://twitter.com" class="icon-img"><img src="images/Twitter.png" alt="Twitter"></a>
+				 				<a href="https://instagram.com" class="icon-img"><img src="images/Instagram.png" alt="Instagram"></a>
+				 				<a href="https://plus.google.com" class="icon-img"><img src="images/Google plus.png" alt="Google plus"></a>
+				    		</div>   
+						</div>
+						<div class="col-md-4">
+							<h4>Contact us</h4>
+							<p>We are available Monday to Friday from 9AM to 6PM.</p>
+		                    <a role="button" class="btn center-block" href="about.html">Get in touch</a>
+						</div>
+					</div>
+					<div class="copyright-text">
+						<p class="copyright-text-p">This page is fictional. It is for assessment purposes only in the course of INFS2233, Electronic Commerce Fundamentals, at The University of Queensland.</p>
+						<p>Copyright &copy; UniCab 2015, Inc. All rights reserved.</p>
+						<p><a href="disclaimer.html">Disclaimer</a>&nbsp;&nbsp;&nbsp;<a href="policy.html">Policy</a></p>	
+					</div>
+				</div>
+			</div>	    	
+    	</div>
+    </div>
+    
+    <script>
+        $('#button-driver').on('click', function (e) {
+            $('#button-driver').addClass("active");
+            $('#button-passenger').removeClass("active");
+            $('#driver').removeClass("hide");
+            $('#passenger').addClass("hide");
+        })
+        $('#button-passenger').on('click', function (e) {
+            $('#button-passenger').addClass("active");
+            $('#button-driver').removeClass("active");
+            $('#driver').addClass("hide");
+            $('#passenger').removeClass("hide");
+        })
+        $('#map-driver').on('click', function (e) {
+            $('#map-driver').addClass("active");
+            $('#list-passenger').removeClass("active");
+            $('#list_canvas').addClass("hide");
+            $('#map_canvas').removeClass("hide");
+        })
+        $('#list-passenger').on('click', function (e) {
+            $('#list-passenger').addClass("active");
+            $('#map-driver').removeClass("active");
+            $('#map_canvas').addClass("hide");
+            $('#list_canvas').removeClass("hide");
+        })
+        $('#map-driver1').on('click', function (e) {
+            $('#map-driver1').addClass("active");
+            $('#list-passenger1').removeClass("active");
+            $('#list_canvas1').addClass("hide");
+            $('#map_canvas1').removeClass("hide");
+        })
+        $('#list-passenger1').on('click', function (e) {
+            $('#list-passenger1').addClass("active");
+            $('#map-driver1').removeClass("active");
+            $('#map_canvas1').addClass("hide");
+            $('#list_canvas1').removeClass("hide");
+        })
+    </script> 
+</body>
+</html>

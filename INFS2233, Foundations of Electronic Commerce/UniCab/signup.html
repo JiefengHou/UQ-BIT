@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>UniCab</title>
+	<meta name="author" content="UniCab">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid container-nav">
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
+          </button>
+          <div id="nav-title">
+            <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt="Logo" class="img-responsive"></a> 
+          </div> 
+        </div>
+        <div class="navbar-collapse collapse nav-pills">
+          <ul class="nav navbar-nav navbar-right nav-pills2">
+            <li id="home-page" class="nav-title"><a href="index.html">Home</a></li>
+            <li id="about-page" class="nav-title"><a href="about.html">About</a></li>
+            <li id="service-page" class="nav-title"><a href="service.html">Services</a></li>
+            <li id="order-page" class="nav-title"><a href="order.html">Order</a></li>
+            <li id="login-page" class="nav-title"><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+	<div class="container">
+		<div class="text signup">
+	      	<form class="form-signin">
+	        	<a href="index.html"><img src="images/login-logo.png" alt="Logo" class="img-responsive center-block login-logo"></a>
+	        	<hr>
+	        	<h3>It's free and always will be.</h3>
+	        	<label for="inputFirstName" class="sr-only">First Name</label>
+	        	<input type="text" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus>
+	        	<label for="inputLastName" class="sr-only">Last Name</label>
+	        	<input type="text" id="inputLastName" class="form-control" placeholder="Last Name" required>
+	        	<label for="inputUserName" class="sr-only">User Name</label>
+	        	<input type="text" id="inputUserName" class="form-control" placeholder="User Name" required>
+	        	<label for="inputEmail" class="sr-only">Email address</label>
+	        	<input type="text" id="inputEmail" class="form-control" placeholder="Email address" required>
+	        	<label for="inputReEmail" class="sr-only">ReEmail address</label>
+	        	<input type="text" id="inputReEmail" class="form-control" placeholder="Re-enter Email address" required>	
+	        	<label for="inputPassword" class="sr-only">Password</label>
+	        	<input type="text" id="inputNewPassword" class="form-control" placeholder="New Password" required>
+	        	<label for="inputPhone" class="sr-only">Phone</label>
+	        	<input type="text" id="inputPhone" class="form-control" placeholder="Phone number" required>
+	        	<label for="inputUniversity" class="sr-only">University</label>
+	        	<input type="text" id="inputUniversity" class="form-control" placeholder="University">
+	            <label for="inputBirthDay" class="sr-only">Birth Date</label>
+	            <h5>Birth Day</h5>
+	            <div class="row">
+	                <div class="col-xs-4 col-md-4">
+	                    <select class="form-control">
+	                        <option value="Month">Month</option>
+	                    </select>
+	                </div>
+	                <div class="col-xs-4 col-md-4">
+	                    <select class="form-control">
+	                        <option value="Day">Day</option>
+	                    </select>
+	                </div>
+	                <div class="col-xs-4 col-md-4">
+	                    <select class="form-control">
+	                        <option value="Year">Year</option>
+	                    </select>
+	                </div>
+	            </div>
+	            <label class="radio-inline">
+	                <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
+	                <h5>Male</h5>
+	            </label>
+	            <label class="radio-inline">
+	                <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
+	                <h5>Female</h5>
+	            </label>
+	        	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+	      	</form>			
+		</div>
+	</div>
+</body>
+</html>

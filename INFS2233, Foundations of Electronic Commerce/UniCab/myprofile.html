@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>UniCab</title>
+	<meta name="author" content="UniCab">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/star-rating.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/star-rating.min.js"></script>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid container-nav">
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
+          </button>
+          <div id="nav-title">
+            <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt="Logo" class="img-responsive"></a> 
+          </div> 
+        </div>
+        <div class="navbar-collapse collapse nav-pills">
+          <ul class="nav navbar-nav navbar-right nav-pills2">
+            <li id="home-page" class="nav-title"><a href="index.html">Home</a></li>
+            <li id="about-page" class="nav-title"><a href="about.html">About</a></li>
+            <li id="service-page" class="nav-title"><a href="service.html">Services</a></li>
+            <li id="order-page" class="nav-title"><a href="order.html">Order</a></li>
+            <li id="login-page" class="nav-title"><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+	<div class="container">
+		<div class="text signup">
+			<div class="profile">
+				<div class="row profile-header">
+					<div class="col-xs-6 col-sm-4 col-md-3">
+						<img src="images/profile.png" alt="profile" class="img-thumbnail center-block">
+					</div>
+					<div class="col-xs-6 col-sm-8 col-md-9">
+						<h3>User Name: James</h3>
+						<div>
+							<p>Driver</p>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star-empty"></span>							
+						</div>
+						<div>
+							<p>Passenger</p>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="glyphicon glyphicon-star"></span>							
+						</div>
+						<button class="btn btn-primary" type="button">Messages <span class="badge">4</span></button>
+					</div>							
+				</div>
+
+				<div class="row profile-content">
+					<div class="col-xs-12 col-sm-5 col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">Profile
+								<a class="profile-edit" href="#">Edit</a>
+							</div>
+					  		<table class="table table-hover">
+						  		<tr>
+						  			<td><strong>Real Name</strong></td>
+						  			<td>James Garrett</td>
+						  		</tr>
+						  		<tr>
+						  			<td><strong>Phone</strong></td>
+						  			<td>04012345678</td>
+						  		</tr>
+						  		<tr>
+						  			<td><strong>Email</strong></td>
+						  			<td>James123@hotmail.com</td>
+						  		</tr>
+						  		<tr>
+						  			<td><strong>University</strong></td>
+						  			<td>UQ</td>
+						  		</tr>
+						  		<tr>
+						  			<td><strong>Joined</strong></td>
+						  			<td>01/06/2015</td>
+						  		</tr>
+						  		<tr>
+						  			<td><strong>Last seen</strong></td>
+						  			<td>Yesterday</td>
+						  		</tr>						  								  						
+					  		</table>
+						</div>
+						<div class="panel panel-default">
+						  	<div class="panel-heading">Wallet</div>
+						  	<div class="panel-body">
+						  		<table class="table table-hover">
+							  		<tr>
+							  			<td><strong>Balance</strong></td>
+							  			<td>$10.0</td>
+							  		</tr>
+							  		<tr>
+							  			<td><strong>Card</strong></td>
+							  			<td>5555 5555 **** ****</td>
+							  		</tr>				  								  						
+						  		</table>
+						  		<div class="profile-card">
+							  		<button class="btn btn-default" type="button">Add a card</span></button>
+							  		<button class="btn btn-default" type="button">Remove a card</span></button>	
+						  		</div>
+						  	</div>
+						</div>
+						<div class="panel panel-default">
+						  	<div class="panel-heading">Comment</div>
+						  	<div class="panel-body">
+								<div role="tabpanel">
+								  	<ul class="nav nav-tabs" role="tablist">
+								    	<li role="presentation" class="active"><a href="#Driver" aria-controls="Driver" role="tab" data-toggle="tab">Driver</a></li>
+								    	<li role="presentation"><a href="#Passenger" aria-controls="Passenger" role="tab" data-toggle="tab">Passenger</a></li>
+								  	</ul>
+
+								  	<div class="tab-content">
+								    	<div role="tabpanel" class="tab-pane active" id="Driver">
+									    	<div class="well">						    		
+												<div>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>							
+												</div>	
+												<h4><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Anonymous <small>on 04/06/2015</small></h4>							    		
+									    		<p>Reliable and Friendly</p>
+									    	</div>
+									    	<div class="well">						    		
+												<div>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star-empty"></span>							
+												</div>	
+												<h4><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Anonymous <small>on 01/06/2015</small></h4>							    		
+									    		<p>He is friendly.</p>
+									    	</div>
+									    	<div class="well">						    		
+												<div>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star-empty"></span>
+													<span class="glyphicon glyphicon-star-empty"></span>							
+												</div>	
+												<h4><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Anonymous <small>on 20/05/2015</small></h4>							    		
+									    		<p>He is very nice</p>
+									    	</div>	
+											<nav class="text-center">
+											  	<ul class="pagination">
+											    	<li>
+											      		<a href="#" aria-label="Previous">
+											        		<span aria-hidden="true">&laquo;</span>
+											      		</a>
+											    	</li>
+											    	<li class="active"><a href="#">1</a></li>
+											    	<li><a href="#">2</a></li>
+											    	<li><a href="#">3</a></li>
+											    	<li>
+											      		<a href="#" aria-label="Next">
+											        		<span aria-hidden="true">&raquo;</span>
+											      		</a>
+											    	</li>
+											  	</ul>
+											</nav>									    	
+								    	</div>
+								    	<div role="tabpanel" class="tab-pane" id="Passenger">
+									    	<div class="well">						    		
+												<div>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star-empty"></span>							
+												</div>	
+												<h4><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Anonymous <small>on 23/05/2015</small></h4>							    		
+									    		<p>Quick, reliable, safe, efficient.</p>
+									    	</div>
+									    	<div class="well">						    		
+												<div>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>
+													<span class="glyphicon glyphicon-star"></span>							
+												</div>	
+												<h4><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Anonymous <small>on 18/05/2015</small></h4>							    		
+									    		<p>Super easy and cheap!</p>
+									    	</div>
+											<nav class="text-center">
+											  	<ul class="pagination">
+											    	<li>
+											      		<a href="#" aria-label="Previous">
+											        		<span aria-hidden="true">&laquo;</span>
+											      		</a>
+											    	</li>
+											    	<li class="active"><a href="#">1</a></li>
+											    	<li><a href="#">2</a></li>
+											    	<li><a href="#">3</a></li>
+											    	<li>
+											      		<a href="#" aria-label="Next">
+											        		<span aria-hidden="true">&raquo;</span>
+											      		</a>
+											    	</li>
+											  	</ul>
+											</nav>									    						    	
+								    	</div>
+								  	</div>
+								</div>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-7 col-md-8">
+						<div class="panel panel-default">
+						  	<div class="panel-heading">My Rides</div>
+						  	<div class="panel-body">
+								<div role="tabpanel">
+								  	<ul class="nav nav-tabs" role="tablist">
+								    	<li role="presentation" class="active"><a href="#Driver1" aria-controls="Driver1" role="tab" data-toggle="tab">Driver</a></li>
+								    	<li role="presentation"><a href="#Passenger1" aria-controls="Passenger1" role="tab" data-toggle="tab">Passenger</a></li>
+								  	</ul>
+
+								  	<div class="tab-content">
+								    	<div role="tabpanel" class="tab-pane active" id="Driver1">
+									    	<div class="well">						    		
+	                                            <table class="table">
+	                                                <tr>
+	                                                    <td><strong>Passenger:</strong></td>
+	                                                    <td>Simon</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Depart From:</strong></td>
+	                                                    <td>The University of Queensland</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive At:</strong></td>
+	                                                    <td>Toowng</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Date:</strong></td>
+	                                                    <td>04/06/2015</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Start Time:</strong></td><td>12:30</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive Time:</strong></td><td>12:50</td>
+	                                                </tr>                                            
+	                                                <tr>
+	                                                    <td><strong>Fee:</strong></td>
+	                                                    <td>$5 (Received)</td>
+	                                                </tr>
+	                                            </table>
+										    	<h4>Write a new review</h4>
+										    	<input id="input-id" class="rating" data-min="0" data-max="5" data-step="1" data-size="xs">
+										    	<textarea class="form-control" rows="3"></textarea>					    	
+										    	<button type="button" class="btn btn-info center-block">Submit</button>
+									    	</div>
+									    	<div class="well">						    		
+	                                            <table class="table">
+	                                                <tr>
+	                                                    <td><strong>Passenger:</strong></td>
+	                                                    <td>Dylan</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Depart From:</strong></td>
+	                                                    <td>The University of Queensland</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive At:</strong></td>
+	                                                    <td>Toowng</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Date:</strong></td>
+	                                                    <td>02/06/2015</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Start Time:</strong></td><td>10:30</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive Time:</strong></td><td>10:50</td>
+	                                                </tr>                                            
+	                                                <tr>
+	                                                    <td><strong>Fee:</strong></td>
+	                                                    <td>$5 (Received)</td>
+	                                                </tr>
+	                                            </table>
+										    	<h4>Write a new review</h4>
+										    	<input id="input-id" class="rating" data-min="0" data-max="5" data-step="1" data-size="xs">
+										    	<textarea class="form-control" rows="3"></textarea>					    	
+										    	<button type="button" class="btn btn-info center-block">Submit</button>
+									    	</div>
+											<nav class="text-center">
+											  	<ul class="pagination">
+											    	<li>
+											      		<a href="#" aria-label="Previous">
+											        		<span aria-hidden="true">&laquo;</span>
+											      		</a>
+											    	</li>
+											    	<li class="active"><a href="#">1</a></li>
+											    	<li><a href="#">2</a></li>
+											    	<li><a href="#">3</a></li>
+											    	<li>
+											      		<a href="#" aria-label="Next">
+											        		<span aria-hidden="true">&raquo;</span>
+											      		</a>
+											    	</li>
+											  	</ul>
+											</nav>    	
+								    	</div>
+								    	<div role="tabpanel" class="tab-pane" id="Passenger1">
+									    	<div class="well">						    		
+	                                            <table class="table">
+	                                                <tr>
+	                                                    <td><strong>Driver:</strong></td>
+	                                                    <td>Tom</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Depart From:</strong></td>
+	                                                    <td>The University of Queensland</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive At:</strong></td>
+	                                                    <td>Toowng</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Date:</strong></td>
+	                                                    <td>04/06/2015</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Start Time:</strong></td><td>12:30</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive Time:</strong></td><td>12:50</td>
+	                                                </tr>                                            
+	                                                <tr>
+	                                                    <td><strong>Fee:</strong></td>
+	                                                    <td>$5 (Unpaid)<br><a href="#" class="profile-paid" data-toggle="modal" data-target=".bs-example-modal-sm">Pay Now</a></td>
+	                                                </tr>
+	                                            </table>
+												<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+												  <div class="modal-dialog modal-sm">
+												    <div class="modal-content">
+												    	<div class="modal-header">
+												        	<h4 class="modal-title" id="myModalLabel">Pay Now</h4>
+												      	</div>
+													    <div class="modal-body">
+													        <h4 class="text-center">Fee: $5</h4>
+													    </div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+															<button type="button" class="btn btn-primary">Yes</button>
+														</div>													    												      
+												    </div>
+												  </div>
+												</div>
+
+										    	<h4>Write a new review</h4>
+										    	<input id="input-id" class="rating" data-min="0" data-max="5" data-step="1" data-size="xs">
+										    	<textarea class="form-control" rows="3"></textarea>					    	
+										    	<button type="button" class="btn btn-info center-block">Submit</button>
+									    	</div>									    	
+									    	<div class="well">						    		
+	                                            <table class="table">
+	                                                <tr>
+	                                                    <td><strong>Driver:</strong></td>
+	                                                    <td>Jimmy</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Depart From:</strong></td>
+	                                                    <td>The University of Queensland</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive At:</strong></td>
+	                                                    <td>Toowng</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Date:</strong></td>
+	                                                    <td>01/06/2015</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Start Time:</strong></td><td>16:30</td>
+	                                                </tr>
+	                                                <tr>
+	                                                    <td><strong>Arrive Time:</strong></td><td>16:50</td>
+	                                                </tr>                                            
+	                                                <tr>
+	                                                    <td><strong>Fee:</strong></td>
+	                                                    <td>$5 (Paid)</td>
+	                                                </tr>
+	                                            </table>
+										    	<h4>Write a new review</h4>
+										    	<input id="input-id" class="rating" data-min="0" data-max="5" data-step="1" data-size="xs">
+										    	<textarea class="form-control" rows="3"></textarea>					    	
+										    	<button type="button" class="btn btn-info center-block">Submit</button>
+									    	</div>
+											<nav class="text-center">
+											  	<ul class="pagination">
+											    	<li>
+											      		<a href="#" aria-label="Previous">
+											        		<span aria-hidden="true">&laquo;</span>
+											      		</a>
+											    	</li>
+											    	<li class="active"><a href="#">1</a></li>
+											    	<li><a href="#">2</a></li>
+											    	<li><a href="#">3</a></li>
+											    	<li>
+											      		<a href="#" aria-label="Next">
+											        		<span aria-hidden="true">&raquo;</span>
+											      		</a>
+											    	</li>
+											  	</ul>
+											</nav>								    	
+								    	</div>
+								  	</div>
+								</div>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+</body>
+</html>
