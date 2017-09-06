@@ -1,0 +1,6 @@
+Eunk-Junk and Eunk-Yunk : 1
+Eunk-Junk and Eun-Jung : 2
+Eunk-Junk and Eun-Jung : 2
+Eunk-Junk and Eun-Jung : 2
+4 matched!
+['Eunk-Yunk', 'Eun-Jung', 'Eun-Jung', 'Eun-Jung']
