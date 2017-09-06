@@ -1,2 +1,1 @@
-# UQ
-Bachelor courseworks @ The University of Queensland, AU
+# UQ Bachelor of IT @ The University of Queensland, Australia
