@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WebApplication1.Australian_Postcode_Validation" CodeBehind="Australian Postcode Validation.svc.cs" %>

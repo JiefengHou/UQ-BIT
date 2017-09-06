@@ -1,0 +1,15 @@
+E:\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+F:\WebApplication1\WebApplication1\bin\WebApplication1.dll
+F:\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+F:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+F:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+F:\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\UQ\INFS3204\prac3\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\UQ\INFS3204\prac3\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\UQ\INFS3204\prac3\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\UQ\INFS3204\prac3\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\UQ\INFS3204\prac3\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

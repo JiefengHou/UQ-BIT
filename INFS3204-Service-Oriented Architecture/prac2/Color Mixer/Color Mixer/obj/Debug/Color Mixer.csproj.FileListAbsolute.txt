@@ -1,0 +1,10 @@
+F:\Color Mixer\Color Mixer\Color Mixer\bin\Color Mixer.dll
+F:\Color Mixer\Color Mixer\Color Mixer\bin\Color Mixer.pdb
+F:\Color Mixer\Color Mixer\Color Mixer\obj\Debug\Color Mixer.csprojResolveAssemblyReference.cache
+F:\Color Mixer\Color Mixer\Color Mixer\obj\Debug\Color Mixer.dll
+F:\Color Mixer\Color Mixer\Color Mixer\obj\Debug\Color Mixer.pdb
+F:\Color Mixer\Color Mixer\bin\Color Mixer.dll
+F:\Color Mixer\Color Mixer\bin\Color Mixer.pdb
+F:\Color Mixer\Color Mixer\obj\Debug\Color Mixer.csprojResolveAssemblyReference.cache
+F:\Color Mixer\Color Mixer\obj\Debug\Color Mixer.dll
+F:\Color Mixer\Color Mixer\obj\Debug\Color Mixer.pdb

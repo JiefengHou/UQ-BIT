@@ -1,0 +1,5 @@
+F:\WebApplication2\WebApplication2\bin\WebApplication2.dll
+F:\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+F:\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+F:\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+F:\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache

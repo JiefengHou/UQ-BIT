@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f4f886d9-1cec-4cdf-a770-14c408b434e5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49497/People and Job Information Management.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="People and Job Information Management.disco" MetadataType="Disco" ID="af853bea-847f-4d79-b806-5269cb065911" SourceId="1" SourceUrl="http://localhost:49497/People and Job Information Management.svc?disco" />
+    <MetadataFile FileName="People and Job Information Management.xsd" MetadataType="Schema" ID="fd67cdfb-e5db-42ff-adc2-49013be55925" SourceId="1" SourceUrl="http://localhost:49497/People and Job Information Management.svc?xsd=xsd0" />
+    <MetadataFile FileName="People_and_Job_Information_Management.wsdl" MetadataType="Wsdl" ID="b11336e6-e5d0-4015-8aef-afe69d514131" SourceId="1" SourceUrl="http://localhost:49497/People and Job Information Management.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

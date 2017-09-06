@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Color_Mixer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Color_Mixer_ColorMixerRef_Color_Mixer" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:50193/Color%20Mixer.asmx</Value>
+    </Setting>
+    <Setting Name="Color_Mixer_ColortoCodConvertorRef_Color_to_Code_Convertor" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:50193/Color%20to%20Code%20Convertor.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

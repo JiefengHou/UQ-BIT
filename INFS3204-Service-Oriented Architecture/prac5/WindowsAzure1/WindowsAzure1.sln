@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WindowsAzure1", "WindowsAzure1\WindowsAzure1.ccproj", "{AAC38758-788A-4258-BAEC-C8D792EC2265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceWebRole1", "WCFServiceWebRole1\WCFServiceWebRole1.csproj", "{7BA1B220-089E-44B3-A57B-70EEA25BA959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC38758-788A-4258-BAEC-C8D792EC2265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC38758-788A-4258-BAEC-C8D792EC2265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC38758-788A-4258-BAEC-C8D792EC2265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC38758-788A-4258-BAEC-C8D792EC2265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA1B220-089E-44B3-A57B-70EEA25BA959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA1B220-089E-44B3-A57B-70EEA25BA959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA1B220-089E-44B3-A57B-70EEA25BA959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA1B220-089E-44B3-A57B-70EEA25BA959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

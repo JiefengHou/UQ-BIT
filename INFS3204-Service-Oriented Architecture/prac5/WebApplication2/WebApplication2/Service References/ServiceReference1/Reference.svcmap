@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="551fa806-733a-4529-9e10-94b574d0cf07" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://e043c03f505e4d46914d8086fb94086d.cloudapp.net/service1.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="7dc42e55-a6db-45fc-ad1f-973c8a8acfc0" SourceId="1" SourceUrl="http://e043c03f505e4d46914d8086fb94086d.cloudapp.net/Service1.svc?disco" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="608918d6-4852-43e1-b86e-39329f75043e" SourceId="1" SourceUrl="http://e043c03f505e4d46914d8086fb94086d.cloudapp.net/Service1.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service11.xsd" MetadataType="Schema" ID="8cb4178a-c26f-4774-899e-f4144aa8e7f6" SourceId="1" SourceUrl="http://e043c03f505e4d46914d8086fb94086d.cloudapp.net/Service1.svc?xsd=xsd3" />
+    <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="dae1def0-bdf3-4cd3-837a-4366df6b5ae7" SourceId="1" SourceUrl="http://e043c03f505e4d46914d8086fb94086d.cloudapp.net/Service1.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service13.xsd" MetadataType="Schema" ID="931ac9e9-c732-41f0-bb44-b742d6b7b07c" SourceId="1" SourceUrl="http://e043c03f505e4d46914d8086fb94086d.cloudapp.net/Service1.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="a5d33214-60d3-4b43-9493-e8b18e85338e" SourceId="1" SourceUrl="http://e043c03f505e4d46914d8086fb94086d.cloudapp.net/Service1.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WCFServiceWebRole1" version="2.1.6493.1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Startup>
+    <Task commandLine="DiagnosticsAgent.exe" taskType="background" relativePath="plugins\Diagnostics">
+      <Environment>
+        <Variable name="RdModuleName" value="Diagnostics" />
+        <Variable name="WaRoleType" value="IISWebRole" />
+      </Environment>
+    </Task>
+    <Task commandLine="DiagnosticsAgent.exe /blockStartup" relativePath="plugins\Diagnostics">
+      <Environment>
+        <Variable name="RdModuleName" value="Diagnostics" />
+        <Variable name="WaRoleType" value="IISWebRole" />
+      </Environment>
+    </Task>
+  </Startup>
+  <Runtime>
+    <EntryPoint>
+      <NetFxEntryPoint assemblyName="WCFServiceWebRole1.dll" targetFrameworkVersion="v4.0" />
+    </EntryPoint>
+  </Runtime>
+  <ConfigurationSettings>
+    <Setting name="ConnectionString" nameSpace="Microsoft.WindowsAzure.Plugins.Diagnostics" />
+  </ConfigurationSettings>
+  <Properties>
+    <Property name="TargetFrameworkVersion" value="v4.0" />
+    <Property name="RoleType" value="Web" />
+    <Property name="RoleName" value="WCFServiceWebRole1" />
+    <Property name="ProjectName" value="WCFServiceWebRole1" />
+    <Property name="Configuration" value="Debug" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="RoleTargetFramework" value="v4.0" />
+    <Property name="OutputDir" value="F:\WindowsAzure1\WindowsAzure1\obj\Debug\WCFServiceWebRole1\" />
+    <Property name="EntryPoint" value="WCFServiceWebRole1.dll" />
+    <Property name="SourceDir" value="F:\WindowsAzure1\WCFServiceWebRole1\" />
+    <Property name="SitePhysicalPath" value="F:\WindowsAzure1\WindowsAzure1\obj\Debug\WCFServiceWebRole1\" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+  <Sites>
+    <Site name="Web" physicalDirectory="F:\WindowsAzure1\WindowsAzure1\obj\Debug\WCFServiceWebRole1\">
+      <Bindings>
+        <Binding name="Endpoint1" endpointName="Endpoint1" />
+      </Bindings>
+    </Site>
+  </Sites>
+</RoleModel>

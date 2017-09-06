@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="DoWork">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoWorkResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PostcodeValidation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="postcode" type="xs:int" />
+        <xs:element minOccurs="0" name="state" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PostcodeValidationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PostcodeValidationResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dateOfBirth" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="streetAddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="suburb" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="state" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="postcode" type="xs:int" />
+        <xs:element minOccurs="0" name="positionNumber" type="xs:int" />
+        <xs:element minOccurs="0" name="positionTitle" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="positionDescription" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="companyName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveInfoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

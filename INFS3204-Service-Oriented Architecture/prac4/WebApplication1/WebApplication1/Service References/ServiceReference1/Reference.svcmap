@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b92a7304-bf21-4038-a0cd-69d61fdbfaec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49760/ADODatabaseService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ADODatabaseService.wsdl" MetadataType="Wsdl" ID="bd99b162-8a08-42a1-a8da-0d7f9ab55fb9" SourceId="1" SourceUrl="http://localhost:49760/ADODatabaseService.svc?wsdl" />
+    <MetadataFile FileName="ADODatabaseService.disco" MetadataType="Disco" ID="eb0d167f-bb34-4007-b64a-be18070998cb" SourceId="1" SourceUrl="http://localhost:49760/ADODatabaseService.svc?disco" />
+    <MetadataFile FileName="ADODatabaseService.xsd" MetadataType="Schema" ID="2d6f1bc1-b5a9-481c-b16d-cefe9ae8917e" SourceId="1" SourceUrl="http://localhost:49760/ADODatabaseService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ADODatabaseService1.xsd" MetadataType="Schema" ID="dd974437-9d8b-4ec4-90b5-7aed3ddb8e49" SourceId="1" SourceUrl="http://localhost:49760/ADODatabaseService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

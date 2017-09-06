@@ -1,0 +1,15 @@
+D:\visual studio 2012\Projects\Buggy Calculator Web Application\Buggy Calculator Web Application\bin\Buggy Calculator Web Application.dll
+D:\visual studio 2012\Projects\Buggy Calculator Web Application\Buggy Calculator Web Application\bin\Buggy Calculator Web Application.pdb
+D:\visual studio 2012\Projects\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.csprojResolveAssemblyReference.cache
+D:\visual studio 2012\Projects\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.dll
+D:\visual studio 2012\Projects\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.pdb
+D:\Buggy Calculator Web Application\Buggy Calculator Web Application\bin\Buggy Calculator Web Application.dll
+D:\Buggy Calculator Web Application\Buggy Calculator Web Application\bin\Buggy Calculator Web Application.pdb
+D:\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.csprojResolveAssemblyReference.cache
+D:\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.dll
+D:\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.pdb
+D:\UQ\INFS3204\Buggy Calculator Web Application\Buggy Calculator Web Application\bin\Buggy Calculator Web Application.dll
+D:\UQ\INFS3204\Buggy Calculator Web Application\Buggy Calculator Web Application\bin\Buggy Calculator Web Application.pdb
+D:\UQ\INFS3204\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.csprojResolveAssemblyReference.cache
+D:\UQ\INFS3204\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.dll
+D:\UQ\INFS3204\Buggy Calculator Web Application\Buggy Calculator Web Application\obj\Debug\Buggy Calculator Web Application.pdb

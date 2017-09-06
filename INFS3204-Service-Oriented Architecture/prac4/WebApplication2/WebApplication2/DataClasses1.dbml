@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Patient" Member="Patients">
+    <Type Name="Patient">
+      <Column Name="[Health Insurance NO.]" Member="Health_Insurance_NO_" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[First name]" Member="First_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Last name]" Member="Last_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Phone number]" Member="Phone_number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Patient_Appointment" Member="Appointments" ThisKey="Health_Insurance_NO_" OtherKey="Health_Insurance_NO_" Type="Appointment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Doctor" Member="Doctors">
+    <Type Name="Doctor">
+      <Column Name="[Medical Registration NO.]" Member="Medical_Registration_NO_" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[First name]" Member="First_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Last name]" Member="Last_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Health Profession]" Member="Health_Profession" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Phone number]" Member="Phone_number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Doctor_Appointment" Member="Appointments" ThisKey="Medical_Registration_NO_" OtherKey="Medical_Registration_NO_" Type="Appointment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Appointment" Member="Appointments">
+    <Type Name="Appointment">
+      <Column Name="[Health Insurance NO.]" Member="Health_Insurance_NO_" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Medical Registration NO.]" Member="Medical_Registration_NO_" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Appointment date &amp; time]" Member="Appointment_date___time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="[Clinic name]" Member="Clinic_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Doctor_Appointment" Member="Doctor" ThisKey="Medical_Registration_NO_" OtherKey="Medical_Registration_NO_" Type="Doctor" IsForeignKey="true" />
+      <Association Name="Patient_Appointment" Member="Patient" ThisKey="Health_Insurance_NO_" OtherKey="Health_Insurance_NO_" Type="Patient" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
