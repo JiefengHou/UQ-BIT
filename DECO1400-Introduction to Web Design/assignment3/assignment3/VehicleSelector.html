@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<title>Vehicle Selector</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="deco1400 team"> 
+	
+	<!-- CSS  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- Scripts  -->
+	<script type="text/Javascript" src="js/show-div.js"></script>
+</head>
+
+<body>
+	<!-- Header -->
+	<div id="header">
+		<div class="inner">
+			<div id="title"></div>
+			<div id="navigation">
+				<ul>
+                    <li class="noLine" title="Home"><a href="index.html">Home</a></li>
+                    <li title="Vehicle Selector"><a href="VehicleSelector.html">Vehicle Selector</a></li>
+                    <li title="Services"><a href="Services.html">Services</a></li>
+                    <li title="Experiences"><a href="Experiences.html">Experiences</a></li>
+                    <li title="Contact Us"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Content -->
+	<div id="content" class="inner">
+			<hr class="hr-left">
+			<div id="content-title">
+				<p class="title">Make the right choice</p>
+				<p class="subtitle">Vintage Rides</p>
+			</div>
+			<hr class="hr-right">
+			
+			<div id="content-center">
+				<div id="selector">
+					<div class="car">
+						<a href="images/car1-big.png"><img src="images/car1.png" alt="car1" title="Duesenberg SJ LA Phaeton"></a>
+						<div class="car-name">
+							<h5>Name</h5>
+							<p>Duesenberg SJ LA Phaeton</p>
+						</div>
+						<div class="car-rate">
+							<h5>Rate Details</h5>
+							<p><strong>AUD 132.80</strong>per day</p>
+						</div>
+						<input type="button" value="Book" class="book-button" onclick="window.location='book.html'">
+						<!-- Second Javascript -->
+						<!-- This javascript is that show the second information div when user click More Information button 
+							 and hide the information div when user click Cancel button-->
+						<input type="button" value="More Information" class="information-button" onclick="showInfor(1)">
+						<div class="moreInfor">
+							<div id="car1-info">
+								<h5>Description:</h5>
+								<p>Duesenberg was a luxury automobile company based in Auburn, Indiana, 
+								that was active from 1913 to 1937. Introduced in 1932, the supercharged 
+								Model J of their popular roadsters could achieve speeds of over 135 miles 
+								per hour. The car's speed potential gave it legendary status in its time, 
+								and it is now looked upon as an automotive technological marvel.</p>
+								<h5>Testimonials From Previous Customers:</h5>
+								<p>The price for the Duesenberg is quit cheap. This was the luxury car and became 
+								so popular in 1932, many people were eager to buy this car. I cannot believe I can 
+								own this car for couple days. Besides, when I drove the car, it made me feel like 
+								I am driving a new car.<cite>Alexandre Hervier</cite></p>
+								
+								<p>The car has a perfect maintenance and the speed is quit fast. I thought every 
+								vintage car will have lots of problems. However after driving this car, I change
+								my mind, I have no worry my car will get crashed on the road.
+								<cite>Jeff Bernardo</cite></p>
+								<input type="button" value="Cancel" class="cancel-button" onclick="hideInfor(1)">
+							</div>
+						</div>
+					</div>
+
+					<div class="car">
+						<a href="images/car2-big.png"><img src="images/car2.png" alt="car2" title="Corvette"></a>
+						<div class="car-name">
+							<h5>Name</h5>
+							<p>Corvette</p>
+						</div>
+						<div class="car-rate">
+							<h5>Rate Details</h5>
+							<p><strong>AUD 82.10</strong> per day</p>
+						</div>
+						<input type="button" value="Book" class="book-button" onclick="window.location='book.html'">
+						<!-- Second Javascript -->
+						<!-- This javascript is that show the second information div when user click More Information button 
+							 and hide the information div when user click Cancel button-->
+						<input type="button" value="More Information" class="information-button" onclick="showInfor(2)">
+						<div class="moreInfor">
+							<div id="car2-info">
+								<h5>Description:</h5>
+								<p>The 1957 Chevrolet Corvette was the first Corvette model to feature four speed manual 
+								transmission and heavy duty breaks and suspension as options. The Corvette itself is one 
+								of the most iconic sports cars in existence, manufactured over six generations and sold in 
+								many parts of the world. Each generation features a variety of models with different features, 
+								making the Corvette brand name an expansive designation.</p>
+								<h5>Testimonials From Previous Customers:</h5>
+								<p>Awesome value. Similarly priced. I can own the sport car for few days with less money.
+								<cite>Rosario Mazzocca</cite></p>
+								<p>This car is suitable for me when I took my girlfriend for a drive. It is a good sport car 
+								for everyone who has a date. <cite>Carlos Oliveira</cite></p>
+								<input type="button" value="Cancel" class="cancel-button" onclick="hideInfor(2)">
+							</div>
+						</div>						
+					</div>					
+
+					<div class="car">
+						<a href="images/car3-big.png"><img src="images/car3.png" alt="car3" title="Rolls Royce Phantom"></a>
+						<div class="car-name">
+							<h5>Name</h5>
+							<p>Rolls Royce Phantom</p>
+						</div>
+						<div class="car-rate">
+							<h5>Rate Details</h5>
+							<p><strong>AUD 102.10</strong> per day</p>
+						</div>
+						<input type="button" value="Book" class="book-button" onclick="window.location='book.html'">
+						<!-- Second Javascript -->
+						<!-- This javascript is that show the second information div when user click More Information button 
+							 and hide the information div when user click Cancel button-->
+						<input type="button" value="More Information" class="information-button" onclick="showInfor(3)">
+						<div class="moreInfor">
+							<div id="car3-info">
+								<h5>Description:</h5>
+								<p>The Rolls Royce Phantom was the auto maker's replacement for the original Silver Ghost. 
+								Constructed in both the United States and the United Kingdom, with time differences between 
+								the two, the Rolls-Royce Phantom featured a much-improved engine over the original Silver Ghost. 
+								For its time, the Rolls-Royce phantom featured state-of-the-art technology and variety of 
+								then-jaw-dropping features.</p>
+								<h5>Testimonials From Previous Customers:</h5>
+								<p>The car is comfortable and the design is special for me. I have driven it in my wedding day. 
+								It is quite nice.<cite>Misa Degn</cite></p>
+								<p>The car is so traditional, but it has less price and comfortable sit. It is a good idea to
+								book this car in the special day.<cite>Luciano Manuel Rodriguez</cite></p>
+								<input type="button" value="Cancel" class="cancel-button" onclick="hideInfor(3)">
+							</div>
+						</div>
+					</div>					
+
+					<div class="car">
+						<a href="images/car4-big.png"><img src="images/car4.png" alt="car4" title="Cadillac Eldorado"></a>
+						<div class="car-name">
+							<h5>Name</h5>
+							<p>Cadillac Eldorado</p>
+						</div>
+						<div class="car-rate">
+							<h5>Rate Details</h5>
+							<p><strong>AUD 112.80</strong> per day</p>
+						</div>
+						<input type="button" value="Book" class="book-button" onclick="window.location='book.html'">
+						<!-- Second Javascript -->
+						<!-- This javascript is that show the second information div when user click More Information button 
+							 and hide the information div when user click Cancel button-->
+						<input type="button" value="More Information" class="information-button" onclick="showInfor(4)">
+						<div class="moreInfor">
+							<div id="car4-info">
+								<h5>Description:</h5>
+								<p>The Cadillac Eldorado was part of the Cadillac line from 1953 to 2002, the longest-running 
+								American personal luxury car and the only one sold after the 1999 model year. While bodystyles 
+								and mechanical layouts varied dramatically throughout the history of the Eldorado, the car was 
+								always near the top of the Cadillac line. The Eldorado's long and extensive history have made 
+								it one of the true legends of the sports car world. A Cadillac Eldorado ambulance was featured 
+								in the Ghostbusters movie.</p>
+								<h5>Testimonials From Previous Customers:</h5>
+								<p>Good value and strong recommence for the men who want to drive a sport car with modern 
+								design and less price.<cite>Jens Moesgaard</cite></p>
+								<p>The car has a good maintenance, although it is the vintage car, the speed is still as 
+								fast as other modern sport car. The design is also nice for me . <cite>David Calvache</cite></p>
+								<input type="button" value="Cancel" class="cancel-button" onclick="hideInfor(4)">
+							</div>
+						</div>
+					</div>					
+				</div>
+				
+			</div>
+			<div id="content-bottom"></div>
+	</div>
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div id="footer-inner" class="inner">
+			<div id="footer-copyright">
+				<p>Copyright &copy; Vintage Rides 2013</p>
+			</div>
+			<div id="footer-connect">
+				<ul>
+					<li><a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook" title="Facebook"></a></li>
+					<li><a href="http://twitter.com/"><img src="images/twitter.png" alt="Twitter" title="Twitter"></a></li>
+					<li><a href="http://google.com"><img src="images/google.png" alt="Google" title="Google"></a></li>
+					<li><a href="http://www.flickr.com"><img src="images/flickr.png" alt="Flickr" title="Flickr"></a></li>
+					<li><a href="http://www.skype.com/"><img src="images/skype.png" alt="Skype" title="Skype"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<title>Book Form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="deco1400 team"> 
+	
+	<!-- CSS  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- Scripts  -->
+	<script type="text/Javascript" src="js/book-form.js"></script>
+</head>
+
+<body>
+	<!-- Header -->
+	<div id="header">
+		<div class="inner">
+			<div id="title"></div>
+			<div id="navigation">
+				<ul>
+                    <li class="noLine" title="Home"><a href="index.html">Home</a></li>
+                    <li title="Vehicle Selector"><a href="VehicleSelector.html">Vehicle Selector</a></li>
+                    <li title="Services"><a href="Services.html">Services</a></li>
+                    <li title="Experiences"><a href="Experiences.html">Experiences</a></li>
+                    <li title="Contact Us"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Content -->
+	<div id="content" class="inner">
+			<hr class="hr-left">
+			
+			<div id="content-title">
+				<p class="title">Welcome to our website</p>
+				<p class="subtitle">Vintage Rides</p>
+			</div>
+			
+			<hr class="hr-right">
+						
+			<div id="content-center">
+					<div id="book-form">
+					
+						<hr class="hr-left">
+						<h4>Book Form</h4>
+						<hr class="hr-right">
+						<!-- Third Javascript -->
+						<!-- This javascript check the book-form is right or not-->
+						<div id="book-car">
+							<h5>Book Details:</h5>
+							<p>*Denotes required fields for processing</p>
+							<form method="post" action="#">
+								<div class="form-style">
+									<h6>First Name: *</h6>
+									<input id="fname" class="input-style" type="text" name="fname" onchange="checkFname()">									<div id="invalidfname" class="format"></div>
+								</div>
+
+								<div class="form-style">
+									<h6>Last Name: *</h6>
+									<input id="lname" class="input-style" type="text" name="lname" onchange="checkLname()">
+									<div id="invalidlname" class="format"></div>
+								</div>
+								
+								<div class="form-style">
+									<h6>Pick Up (Date): *</h6>
+									<input id="pickUp" class="input-style" type="text" name="pickUp" onchange="checkPickUp()">
+									<div id="invalidpickup" class="format"></div>
+								</div>	
+						
+								<div class="form-style">
+									<h6>Drop Off (Date): *</h6>
+									<input id="dropOff" class="input-style" type="text" name="dropOff" onchange="checkDropOff()">
+									<div id="invaliddropoff" class="format"></div>
+								</div>	
+									
+								<div class="form-style">
+									<h6>Email Address: *</h6>
+									<input id="email" class="input-style" type="text" name="email" onchange="checkEmail()">
+									<div id="invalidemail" class="format"></div>
+								</div>								
+									
+								<div class="form-style">
+									<h6>Phone Number: *</h6>
+									<input id="phoneNumber" class="input-style" type="text" name="phone" onchange="checkPhone()">
+									<div id="invalidphone" class="format"></div>
+								</div>	
+								
+								<div class="form-style1">
+									<h6>Car Name: *</h6>
+									<select class="input-style" id="carName" onchange="checkCarName()">
+											<option>--Select--</option>
+											<option>Duesenberg SJ LA Phaeton</option>
+											<option>Corvette</option>
+											<option>Rolls Royce Phantom</option>
+											<option>Cadillac Eldorado</option>
+										  </select>
+									<div id="invalidcarname" class="format"></div>								
+								</div>
+								
+								<div class="form-style1">
+									<h6>Other Service:</h6>
+									<select class="input-style">
+											<option value="red">--Select--</option>
+											<option value="red">Driver Package</option>
+											<option value="red">Equipment</option>
+											<option value="red">Vintage Rides Maintenance</option>
+											<option value="red">Vintage Rides Assessment</option>
+									</select>							
+								</div>
+									
+								<div><input type="button" value="Back" class="back-button" onclick="window.location='VehicleSelector.html'">
+								<input type="submit" value="Send" class="send-button" onclick="return send()"></div>
+							</form>
+						</div>
+					</div>
+			</div>
+			<div id="content-bottom"></div>
+	</div>
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div id="footer-inner" class="inner">
+			<div id="footer-copyright">
+				<p>Copyright &copy; Vintage Rides 2013</p>
+			</div>
+			<div id="footer-connect">
+				<ul>
+					<li><a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook" title="Facebook"></a></li>
+					<li><a href="http://twitter.com/"><img src="images/twitter.png" alt="Twitter" title="Twitter"></a></li>
+					<li><a href="http://google.com"><img src="images/google.png" alt="Google" title="Google"></a></li>
+					<li><a href="http://www.flickr.com"><img src="images/flickr.png" alt="Flickr" title="Flickr"></a></li>
+					<li><a href="http://www.skype.com/"><img src="images/skype.png" alt="Skype" title="Skype"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>

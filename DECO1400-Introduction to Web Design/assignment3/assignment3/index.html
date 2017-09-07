@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<title>Home Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="deco1400 team"> 
+	
+	<!-- CSS  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- Scripts  -->
+	<script type="text/Javascript" src="js/show-photo.js"></script>
+</head>
+
+<body>
+	<!-- Header -->
+	<div id="header">
+		<div class="inner">
+			<div id="title"></div>
+			<div id="navigation">
+				<ul>
+                    <li class="noLine" title="Home"><a href="index.html">Home</a></li>
+                    <li title="Vehicle Selector"><a href="VehicleSelector.html">Vehicle Selector</a></li>
+                    <li title="Services"><a href="Services.html">Services</a></li>
+                    <li title="Experiences"><a href="Experiences.html">Experiences</a></li>
+                    <li title="Contact Us"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Content -->
+	<div id="content" class="inner">
+			<hr class="hr-left">
+			<div id="content-title">
+				<p class="title">Welcome to our website</p>
+				<p class="subtitle">Vintage Rides</p>
+			</div>
+			<hr class="hr-right">
+			
+			<!-- Fisrt Javascript -->
+			<!-- This javascript is that show the image and change image for every 3s. Moreover, users can chage image by themselves-->
+			<div id="container">
+				<div id="container-inner">
+					<img id="left" src="images/left.png" onclick="previous()" alt="leftPhoto">
+					<img id="photo" src="images/photo1.png" alt="showPhoto"> 
+					<img id="right" src="images/right.png" onclick="next()" alt="rightPhoto">
+				</div>
+			</div>
+			
+			<div id="content-center">
+				<div id="story">
+					<hr class="hr-left">
+					<h4>Our Story</h4>
+					<hr class="hr-right">	
+					<div class="story-bg">
+						<p class="story"> Vintage Rides is a hire vintage vehicles shop in Brisbane. This shop was opening 
+						in 2005, from these years, we tried our best to give customers our best services. Therefore, in order
+						to make our customers more convenient, We will provide an online booking service!</p>
+						<div id="shop"></div>
+					</div>					
+				</div>
+				
+				<div id="vehicle">
+					<hr class="hr-left">
+					<h4>Our Vintage Vehicles</h4>
+					<hr class="hr-right">	
+					<div class="vehicle-bg">
+						<p class="story"> Vintage Rides provide rent car service. Our vehicles are vintage classic models 
+						from early 1920's models to classic 1970's. We also have various models. Choose one and have an awesome 
+						driving with our cars. Enjoy your trip with our vintage vehicles!</p>
+						<div id="car"></div>
+					</div>						
+				</div>
+			
+			
+
+			</div>
+			
+			<div id="content-bottom"></div>
+	</div>
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div id="footer-inner" class="inner">
+			<div id="footer-copyright">
+				<p>Copyright &copy; Vintage Rides 2013</p>
+			</div>
+			<div id="footer-connect">
+				<ul>
+					<li><a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook" title="Facebook"></a></li>
+					<li><a href="http://twitter.com/"><img src="images/twitter.png" alt="Twitter" title="Twitter"></a></li>
+					<li><a href="http://google.com"><img src="images/google.png" alt="Google" title="Google"></a></li>
+					<li><a href="http://www.flickr.com"><img src="images/flickr.png" alt="Flickr" title="Flickr"></a></li>
+					<li><a href="http://www.skype.com/"><img src="images/skype.png" alt="Skype" title="Skype"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>

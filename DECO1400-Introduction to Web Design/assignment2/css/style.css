@@ -1,0 +1,600 @@
+/* CSS Document */
+body {
+		background-color: #eeede5;
+		margin:0;
+		padding:0;
+		height:100%;
+		font-family: Georgia, Arial, Helvetica, sans-serif;
+		position: relative;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #d5d3c8;
+	text-transform:uppercase;
+	
+}
+
+h2 {
+	font-size: 24px;
+	font-family: Comic Sans MS, Helvetica, Arial;
+	font-weight: normal;
+	color:#a8dfe2;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: Verdana, Helvetica, Arial;
+	font-weight: normal;
+	color: #999999;
+	margin-bottom: 5px;
+	margin-top:0;
+	
+}
+
+
+h4 {
+	font-size: 18px;
+	font-family: Verdana, Helvetica, Arial;
+	color: #3f5d7a;
+	font-weight: normal;
+	margin-bottom: 5px;
+	margin-top:0;
+}
+
+h5 {
+	font-size: 16px;
+	font-family: Verdana, Helvetica, Arial;
+	margin-top:-1px;
+	margin-left:30px;
+	margin-bottom:30px;
+	color:#D4414B;
+	
+}
+
+p {
+	font-size: 12px;
+	font-family: Verdana, Helvetica, Arial;
+	line-height: 20px;
+	
+}
+
+
+span {
+	color:#ef532f;
+}
+
+
+
+.inner{
+	margin:0 auto;
+	width:1000px;
+
+}
+
+hr.line {
+	border:0;
+	border-left:30px solid #D4414B;
+	border-right:30px solid #D4414B;
+	height:4px;
+	background-color:#deddd3;
+	
+	width:700px;
+}
+
+hr.line-dashed{
+	height:4px;
+	border:0;
+	border-top:4px dashed #deddd3;
+	width:700px;
+}
+
+h3.subtitle{
+	width:1000px;
+	height:30px;
+	float:left;
+	margin-top:10px;
+	margin-left:40px;
+}
+
+
+/* HEADER
+============================== */
+#header{
+		background-image: url(../images/header.png);
+		background-position: left top;
+		background-repeat: repeat-x;
+	
+		height:100%;
+		overflow: hidden;
+		width: 100%;
+		
+}
+
+#header-inner{
+		background: url(../images/title.png) no-repeat center center;
+		height:150px;
+}
+
+
+
+/* NAVIGATION
+============================== */
+#navigation{
+		background-image: url(../images/navigationbar.png);
+		background-position: left top;
+		background-repeat: repeat-x;
+		height:54px;
+		width: 100%;
+		
+		overflow: hidden;
+}
+
+#navigation-inner{
+		list-style: none;
+		height:54px;
+}
+
+#navigation ul{
+		width:1000px;
+		float:left;
+		height:54px;
+		margin:-1px 0;
+		padding-left:80px;
+		
+}
+
+#navigation ul li{
+		height:54px;
+		font-size:15px;
+		font-weight:bold;
+		color:#515758;
+		text-transform:uppercase;
+		float:left;
+		display:inline;
+		margin:0 10px;
+		background:url(../images/line.png) no-repeat 0 10px;
+		padding-left:30px;
+		list-style:none;
+}
+
+#navigation ul li.noLine {
+	background:none;
+	padding-left:0;
+}
+
+#navigation ul li a{
+	height:54px;
+	float:left;
+	color:#515758;
+	text-decoration:none;
+	padding:20px 3px 0 2px;
+}
+
+
+
+#navigation ul li a:hover{
+		background:url(../images/link.png) no-repeat top center;
+		padding:21px 3px 0 2px;
+		color:#2C9FAA;
+}
+
+.active {
+	color:#2C9FAA;
+	background:url(../images/link.png) no-repeat top center;
+}
+
+
+
+
+
+/* CONTENT
+============================== */
+#content {
+		height:100%;
+		overflow: hidden;
+		margin:10px auto;
+}	
+
+#content-inner{
+		width:1000px;	
+}
+
+#content-top{
+		background:url(../images/content-top.png) no-repeat top center;
+		width:1000px;
+		height:130px;
+		float:left;
+		clear:both;
+}
+
+#content-header{
+		background-image: url(../images/content-header.png);
+		background-position: left top;
+		background-repeat: no-repeat;
+		width:100px;
+		height:100px;
+		float:left;
+}
+
+#titleLine {
+	border:0;
+	border-left:30px solid #D4414B;
+	height:4px;
+	background-color:#deddd3;
+	margin-top:20px;
+	margin-right:30px;
+	width:500px;
+}
+
+#content-title{
+		float:left;
+		margin-left:150px;
+		margin-top:-10px;
+		height:90px;
+		width:700px;
+	
+}
+
+#content-title h1{
+		margin-top:15px;
+}
+
+#content-title h2{
+		margin-top:-20px;
+		margin-left:100px;	
+}
+
+
+#content-center{
+	width:1000px;
+	height:100%;
+	float:left;
+	clear:both;
+	background:url(../images/content-center.png) repeat-y top center;
+}
+
+
+/* About Me*/
+
+#myphoto{
+		float:left;
+		background-image: url(../images/frame.png);
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 196px;
+		height: 196px;
+		clear:left;
+		margin-left:70px;
+		margin-top:10px;
+		padding: 16px 17px 47px 17px;
+				
+}
+
+#content-main{
+		float:left;
+		margin-left:50px;
+		margin-top:50px;
+		width:600px;
+		height:200px;
+}
+
+
+
+
+/* Work Experience */
+
+
+.work{
+	float:left;
+	width:1000px;
+	height:200px;
+	
+}
+
+.time{
+		float:left;
+		margin-left:70px;
+		width:170px;
+		height:200px;
+		
+}
+
+.place{
+		float:left;
+		width:600px;
+		height:180px;
+		margin-top:20px;
+		
+}
+
+p.year{
+	margin-top:20px;
+	font-weight:bold;
+}
+
+
+
+
+
+/* Education and Skills */
+
+#education{
+	width:1000px;
+	float:left;
+	height:100%;
+}
+
+
+#skill-container{
+	width:1000px;
+	float:left;
+	height:100%;
+}
+
+.skill {
+	width:1000px;
+	float:left;
+	height:20px;
+	margin-top:20px;
+}
+
+.skill-name {
+	float:left;
+	width:100px;
+	font-weight:bold;
+	margin-left:70px;
+}
+.skill-level{
+	float:left;
+	width:475px;
+	color:#fff;
+	padding:3px 3px;
+	background-color:#ccc;
+	margin-left:70px;
+	
+}
+.skill-score {
+	float:left;
+	width:100px;
+	margin:0 10px;
+	text-align:right;
+	margin-left:20px;
+}
+.skill-bg {
+	background-color:#566d83;
+	height:10px;
+}
+
+.level1 {width: 10%;}
+.level2 {width: 20%;}
+.level3 {width: 30%;}
+.level4 {width: 40%;}
+.level5 {width: 50%;}
+.level6 {width: 60%;}
+.level7 {width: 70%;}
+.level8 {width: 80%;}
+.level9 {width: 90%;}
+.level10 {width: 100%;}
+
+
+/* Portfolio */
+#photo-list {
+	width:1000px;
+	height:100%;	
+	
+}
+
+#photo-list1 {
+	width:1000px;
+	height:100%;
+	
+}
+
+.photo-list-ul {
+	float: left;
+	margin:40px 0 0 30px;
+	width:900px;
+	height:170px;
+	list-style: none;
+}
+
+.photo-list-li {
+	float: left;
+	display:inline-block;
+	margin:20px 20px;
+}
+
+.photo-list-img{
+	padding: 9px; 
+	background-color: #f6f6f6; 
+	border: 1px dashed #b2b2b2; 
+	-webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);  
+	-moz-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2); 
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	
+}
+
+
+#photo-list img:hover{
+	-webkit-box-shadow: none;  
+	-moz-box-shadow: none;
+}
+
+#photo-list1 img:hover{
+	-webkit-box-shadow: none;  
+	-moz-box-shadow: none;
+}
+
+#show-photo {
+	display:none;
+	position:absolute;
+	z-index:1; 
+}
+
+#controlphoto{
+	width:320px;
+	height:100%;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+#controlphoto .photobutton{
+	border-style: solid;
+    border-width: 2px;
+	padding: 5px 10px;
+	background-color: #b2b2b2;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;
+	border-radius:15px;   
+	border-color: #ffffff;
+	color:#f6f6f6;
+	font-family: Helvetica, Arial, sans-serif;
+	width:100px;
+	height:40px;
+	background-color: #414141;
+}
+
+#controlphoto .photobutton:hover {
+	background-color: #222222;
+}
+
+
+
+
+
+
+/* Contact Me */
+
+#contact-form {
+	margin-left:150px;
+	margin-top:10px;
+	width:300px;
+	float:left;
+}
+
+#contact-information{
+	float:left;
+	margin-left:200px;
+	margin-top:10px;
+	width:200px;
+	padding: 9px; 
+	background-color: #f6f6f6; 
+	border: 2px dashed #b2b2b2; 
+}
+
+.textarea {
+		width:300px;
+		height:100px;
+}
+
+.form-style {
+	margin-bottom: 5px;
+}
+
+
+.send-button {
+	border-style: solid;
+    border-width: 2px;
+	padding: 5px 10px;
+	background-color: #b2b2b2;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;
+	border-radius:15px;   
+	border-color: #ffffff;
+	color:#f6f6f6;
+	font-family: Helvetica, Arial, sans-serif;
+ 	width:90px;
+	height:30px;
+	background-color: #414141;
+	margin-top:10px;
+	color: #ffffff;
+}
+
+.send-button:hover {
+	background-color: #222222;
+}
+
+.format {
+	font-size:12px;
+	color:#FF0000;
+	font-weight:bold;
+	margin:5px 0;
+}
+
+
+
+
+
+
+#content-bottom{
+	width:1000px;
+	height:100px;
+	float:left;
+	clear:both;
+	background:url(../images/content-bottom.png) no-repeat top center;
+}
+
+#content-footer{
+		background-image: url(../images/content-footer.png);
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		width:100px;
+		height:100px;
+		float:right;
+		
+}
+
+#bottomLine {
+	border:0;
+	border-right:30px solid #D4414B;
+	height:4px;
+	background-color:#deddd3;
+	margin-top:80px;
+	margin-left:30px;
+	width:500px;
+}
+
+
+
+
+/* FOOTER
+============================== */
+#footer{
+	
+	background-image: url(../images/footer.png);
+	background-repeat: repeat-x;
+	height:60px; 
+
+}
+
+#footer-inner{
+	width:1000px;
+	height:60px;
+}
+
+#footer-copyright{
+	float:left;
+	height:40px;
+	color:#ffffff;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#footer-connect{
+	float:right;
+	margin-right:20px;
+	height:60px;
+	width:350px;
+	list-style: none;
+}
+
+#footer-connect ul li{
+	display: inline-block;
+	margin: 0 5px;
+	float:right;	
+}
+
+
