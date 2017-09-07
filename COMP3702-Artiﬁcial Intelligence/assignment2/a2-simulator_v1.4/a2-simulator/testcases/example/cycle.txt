@@ -1,0 +1,6 @@
+5
+AutoBikeSturdy Medium Reliable Wild 400
+AutoBikeCheap Slow NotReliable Domesticated 50
+AutoBikeCheetah Fast NotReliable Wild 300
+BMXLowEnd Medium Reliable Domesticated 150
+BMXOK Medium NotReliable Wild 150

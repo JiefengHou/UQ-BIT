@@ -1,0 +1,10 @@
+9
+QBLow Slow NotReliable Domesticated 75
+QBMed Medium NotReliable Domesticated 100
+QBFast Fast NotReliable Domesticated 125
+AVantS Slow Reliable Domesticated 160
+AvantM Medium Reliable Domesticated 180
+AvantF Fast Reliable Domesticated 200
+BMZSlow Slow Reliable Wild 325
+BMZMedium Medium Reliable Wild 370
+BMZFast Fast Reliable Wild 410

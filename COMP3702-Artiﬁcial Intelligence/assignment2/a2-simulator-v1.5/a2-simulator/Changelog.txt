@@ -1,0 +1,31 @@
+
+20/9/2014	V1.0	Initial Release
+
+22/9/2014	V1.1	RaceSimTools.java Bug Fixes + new functions
+- Bug fixed in sampleNextPlayer. Old probabilities were being used.
+- New function: nextPlayers and nextStates (transition probability functions)
+- Player, Distractor and Opponent now implement interface Actor (needed for nextStates function)
+- A few other bug fixes here and there
+
+22/9/2014	V1.2	Changes to match updated task sheet 
+- Added isObstacle property to Player
+- Added TO and TC actions
+- Added tour timing
+- Fixed a bug in RaceSimTools.stateToString
+- Fixed a line in StLucia test track
+
+24/9/2014 	V1.3	Additional error checking and bug fix
+- Error check in Tour.startRace for ensuring each player has a unique id.
+- Added check in RaceSimTools to ensure that action TO can only be used when there is > 1 player
+- Additional comment in Player
+
+2/10/2014	V1.4	Bug fixes, stdio
+- Added solver/Stdio.java
+- Tracks and number of players for each track now need to be registered before any race starts. 
+- Modified code to match latests clarifications, most notably the distractor damage system has been modified: penalty is received when a cycle and a distractor are in the same cell at the same time
+
+5/10/2014 	V1.5	Visualiser
+- Added visualiser
+- Added toString method to Cycle.java
+- Added additional functionality to Tour.java
+- Added another constructor to RaceSim.java

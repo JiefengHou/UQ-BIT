@@ -1,0 +1,7 @@
+6
+QBLow Slow NotReliable Domesticated 75
+QBMed Medium NotReliable Domesticated 100
+QBFast Fast NotReliable Domesticated 135
+CrossCountrySlow Slow NotReliable Wild 100
+CrossCountryMedium Medium NotReliable Wild 125
+CrossCountryFast Fast NotReliable Wild 150

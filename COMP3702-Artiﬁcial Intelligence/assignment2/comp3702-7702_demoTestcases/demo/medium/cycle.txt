@@ -1,0 +1,13 @@
+12
+QBLow Slow NotReliable Domesticated 75
+QBMed Medium NotReliable Domesticated 100
+QBFast Fast NotReliable Domesticated 125
+HerculesS Slow Reliable Domesticated 125
+HerculesM Medium Reliable Domesticated 150
+HerculesF Fast Reliable Domesticated 175
+CrossCountrySlow Slow NotReliable Wild 150
+CrossCountryMedium Medium NotReliable Wild 175
+CrossCountryFast Fast NotReliable Wild 200
+BMZSlow Slow Reliable Wild 200
+BMZMedium Medium Reliable Wild 225
+BMZFast Fast Reliable Wild 250
