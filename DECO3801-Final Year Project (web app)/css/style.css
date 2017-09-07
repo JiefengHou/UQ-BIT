@@ -1,0 +1,638 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Ubuntu:400,500,700
+			|Roboto:400,500,700|Montserrat:400,700|Open+Sans:700,600
+			|Droid+Serif:400,700|Source+Sans+Pro:400,600,700);
+
+/* This is style file */
+html, body {
+    background: url(../images/bg.jpg) repeat 0 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+
+/* index page
+============================== */
+.container1 {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#map {
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 84%;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.overview-map {
+    border: 5px solid #ffffff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin: 0px auto;
+}
+
+.overview-checkbox {
+    float: none;
+    margin: 0 auto;
+    width: 900px;
+    height: 100%;
+}
+
+.overview-box {
+    float: left;
+    width: 180px;
+    margin-top: 5px;
+}
+
+.img-checkbox {
+    float: left;
+    margin-top: 3px;
+}
+
+.overview-switch {
+    float: left;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+#navi2 {
+    display: none;
+}
+/* end
+============================== */
+
+
+
+/* information window
+============================== */
+
+hr {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1px;
+    border: none;
+    background: #e7e7e7;
+    background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		right bottom,
+		color-stop(0, rgb(243,244,245)),
+		color-stop(0.2, rgb(222,224,225)),
+		color-stop(0.8, rgb(222,224,225)),
+		color-stop(1, rgb(243,244,245))
+		);
+    background-image: -moz-linear-gradient(
+		left center,
+		rgb(243,244,245) 0%,
+		rgb(222,224,225) 20%,
+		rgb(222,224,225) 80%,
+		rgb(243,244,245) 100%
+		);
+}
+
+.box-icon {
+    float: right;
+}
+
+.collapseIcon {
+    margin-right: 10px;
+}
+
+#information {
+    float: left;
+    margin-left: 1%;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    width: 30%;
+    display: none;
+}
+
+#information a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+#collapseOnePanel {
+    float: left;
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+    background-color: #fefefe;
+}
+
+#collapseOneNodeId {
+    letter-spacing: 0.03em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #38b6cd;
+    margin: 5px auto;
+    font-size: 24px;
+}
+
+.collapseTitle {
+    clear: both;
+    float: left;
+    margin-top: 40px;
+    color: #a1a1b3;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.collapseTitle {
+    margin-top: 10px;
+}
+
+#collapseOneGPSCoordss {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #474a54;
+    line-height: 34px;
+    letter-spacing: 0.015em;
+    clear: left;
+    font-size: 16px;
+}
+
+#collapseOneNodeVals {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: #474a54;
+    line-height: 34px;
+    letter-spacing: 0.015em;
+    clear: left;
+    font-size: 14px;
+}
+
+.form-group {
+    clear: left;
+}
+
+.dateText {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #474a54;
+    letter-spacing: 0.015em;
+    clear: both;
+    font-size: 18px;
+    float: left;
+    margin-top: 10px;
+}
+
+.date {
+    float: left;
+    clear: left;
+}
+
+.information-button {
+    float: right;
+    margin-top: 10px;
+}
+
+.info-value-container {
+    float: left;
+    width: 100%;
+}
+
+#latestVoltagesVals {
+    float: left;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+#latestCurrentVals {
+    float: left;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.information-table-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #474a54;
+    letter-spacing: 0.015em;
+    clear: both;
+    font-size: 18px;
+    float: left;
+    margin-top: 10px;
+}
+/* end
+============================== */
+
+
+
+/* graph window
+============================== */
+#graph {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    display: none;
+}
+
+#graph a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+#collapseTwoPanel {
+    height: 260px;
+    background-color: #fefefe;
+}
+
+#chartContainer {
+    float: left;
+    margin: 0;
+    border-right: 3px dotted #ddd;
+}
+
+#contentContainer {
+    float: left;
+    margin-left: 2%;
+}
+
+.grapg-button {
+    width: 50%;
+}
+
+#graph-option {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.graph-box {
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.switch-text {
+    float: left;
+    clear: left;
+    width: 150px;
+}
+
+.graph-switch {
+    float: right;
+    margin-top: 7px;
+}
+
+#graph-date {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+
+#filterGraphDate {
+    float: right;
+    margin-top: 5px;
+    width: 25%;
+}
+/* end
+============================== */
+
+
+
+/* marker style
+============================== */
+.gm-style-iw {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    max-height: 150px;
+}
+
+.markers-table {
+    max-width: 300px;
+}
+
+.markers-table a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+/* end
+============================== */
+
+
+
+/* search box/button style
+============================== */
+.input-search {
+    position: relative;
+}
+
+#result {
+    float: none;
+    background-color: #fff;
+    position: absolute;
+    display: none;
+    word-wrap: break-word;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.search-result {
+    width: 100%;
+}
+
+.img-result {
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.search-result-title {
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted #D8D8D8;
+}
+
+.search-result-content {
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 70%;
+}
+
+.image-404 {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.text-404 {
+    text-align: center;
+}
+
+.text-404 a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+/* end
+============================== */
+
+
+
+/* user guide page
+============================== */
+
+span {
+    color: #17a689;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 60px auto;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-bottom: none;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.25);
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    overflow-y: hidden;
+}
+
+#container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.line {
+    clear: both;
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 2px dotted #CCC;
+}
+
+.logo {
+    float: left;
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 20px;
+}
+
+#title {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#title h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 48px;
+}
+
+#content {
+    float: left;
+    width: 100%;
+    margin-top: 0;
+}
+
+.content-guide {
+    float: left;
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content-title {
+    color: #0088cc;
+    overflow: hidden;
+    text-align: center;
+    background: url(../images/bg-title.gif) repeat-x 0 50%;
+}
+
+.content-title h2 {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 1em;
+    background: #FFF;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.content-content {
+    float: left;
+    color: #444;
+    width: 100%;
+}
+
+.guide-list {
+    float: left;
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* end
+============================== */
+
+
+
+/* team bios page
+============================== */
+.one-person {
+    width: 94%;
+    clear: left;
+    float: left;
+    margin-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.personal-img {
+    float: left;
+    width: 220px;
+}
+
+.personal-detail {
+    float: left;
+    margin-left: 20px;
+    width: 530px;
+}
+
+.personal-detail p {
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: 14px;
+}
+/* end
+============================== */
+
+
+
+/* team bios page
+============================== */
+
+#quick-find li {
+    margin-bottom: 10px;
+}
+
+.guide-list h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #474a54;
+    line-height: 34px;
+    letter-spacing: 0.015em;
+    clear: left;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#faq {
+    margin-top: -30px;
+}
+
+#faq li {
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+#faq p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #444;
+    font-size: 16px;
+}
+
+/* end
+============================== */
+
+
+/* desktop(screen szie >= 1024x600) css style
+============================== */
+
+@media only screen and (min-height: 1000px) and (min-width: 1000px) {
+    #map {
+        height: 88%;
+    }
+}
+
+@media only screen and (max-height: 800px) and (min-width: 1000px) {
+    #information {
+        width: 38%;
+    }
+}
+
+@media only screen and (max-height: 700px) and (min-width: 1000px) {
+    #map {
+        height: 80%;
+        min-height: 260px;
+    }
+
+    #information {
+        width: 40%;
+    }
+
+    #collapseOnePanel {
+        min-height: 217px;
+    }
+
+    .dateText {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    #graph {
+        margin-top: 5px;
+    }
+
+    #collapseTwoPanel {
+        height: 230px;
+    }
+
+    #collapseOneNodeId {
+        font-size: 22px;
+    }
+
+    .collapseTitle {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #navi1 {
+        display: none;
+    }
+
+    #navi2 {
+        display: block;
+    }
+}
+
+/* end
+============================== */
