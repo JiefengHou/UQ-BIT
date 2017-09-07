@@ -1,0 +1,68 @@
+ul
+{
+	float: left;
+	clear: left;
+	list-style:none;
+}
+
+.hide
+{
+	display: none;
+}
+
+img
+{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	clear: left;
+	
+}
+
+p 
+{
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+h1, a
+{
+	float: left;
+	clear: left;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+a
+{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+#g1, #g2
+{
+	float: left;
+	clear: left;
+}
+
+#button
+{
+	float: left;
+	margin-left: 60px;
+	clear: left;
+}
+
+#login
+{
+	float: left;
+	margin-left: 60px;
+	margin-bottom: 20px;
+}
+
+.place
+{
+	float: left;
+	margin-left: 20px;	
+	clear: left;
+}

@@ -1,0 +1,10 @@
+  http://infs3202-023.uqcloud.net
+
+
+
+
+Your INFS3202/7202 student zone
+Your zone is	infs3202-023
+SSH	s4303400@infs3202-023.zones.eait.uq.edu.au
+View website	http://infs3202-023.uqcloud.net/
+Use phpMyAdmin	http://infs3202-023.uqcloud.net/phpmyadmin

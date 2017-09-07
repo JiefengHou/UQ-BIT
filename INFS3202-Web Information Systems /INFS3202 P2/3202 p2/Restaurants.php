@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<?php ?>
+<html>
+	<head>
+		<title>Restaurants List</title>
+		<meta name="description" content="Gallery of restaurants">
+		<meta name="keywords" content="INFS3202 Prac1">
+		<meta name="author" content="Jiefeng Hou">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+		<script type="text/Javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/Javascript" src="js/lightbox-2.6.min.js"></script>
+	</head>
+
+	<body>
+		<div>		
+			<h1 class="left">Restaurants</h1>
+			<ul>
+				<li><a href="images/photo1.jpg" rel="lightbox[gallery]" title="photo1"><img src="images/photo1.jpg" width="150px" height="150px" alt="photo1"></a><p>Address:197-201 Beaudesert Rd, Moorooka QLD 4105, Phone:3848 6759, Business Hours: 07:00 - 15:00</p></li>
+
+				<li><a href="images/photo2.jpg" rel="lightbox[gallery]" title="photo2"><img src="images/photo2.jpg" width="150px" height="150px" alt="photo2"></a><p>Address:197-201 Beaudesert Rd, Moorooka QLD 4105, Phone:3848 6759, Business Hours: 07:00 - 15:00</p></li>
+
+				<li><a href="images/photo3.jpg" rel="lightbox[gallery]" title="photo3"><img src="images/photo3.jpg" width="150px" height="150px" alt="photo3"></a><p>Address:197-201 Beaudesert Rd, Moorooka QLD 4105, Phone:3848 6759, Business Hours: 07:00 - 15:00</p></li>
+
+				<li><a href="images/photo4.jpg" rel="lightbox[gallery]" title="photo4"><img src="images/photo4.jpg" width="150px" height="150px" alt="photo4"></a><p>Address:197-201 Beaudesert Rd, Moorooka QLD 4105, Phone:3848 6759, Business Hours: 07:00 - 15:00</p></li>
+			</ul>
+			<a class="left" href="index.php">Back</a>
+		</div>
+	</body>
+</html>
