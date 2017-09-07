@@ -1,4 +1,4 @@
-## UQ Bachelor of IT @ The University of Queensland, Australia
+### UQ Bachelor of IT @ The University of Queensland, Australia
 ---------------------------------------
 Programming courseworks at The University of Queensland from 2012 to 2015.
 
@@ -48,6 +48,9 @@ Programming courseworks at The University of Queensland from 2012 to 2015.
     * Horizontally and Vertically Fragment Relations During Distributed Database Design
     * Map Reduce Simulation
     * Edit Distance
+    
+##### INFS3202 - Web Information Systems
+    * PHP, JSP, AJAX, Google Map
 
 ##### INFS3204 - Service-Oriented Architecture
     * WCF, LINQ and .NET
