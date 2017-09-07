@@ -1,0 +1,2 @@
+WH239,  Mountain Bike Wheel,            5000
+TR202,  Mountain Bike Tire,             2000

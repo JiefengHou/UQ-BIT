@@ -1,0 +1,26 @@
+WH239,  Mountain Bike Wheel,            5000
+TR202,  Mountain Bike Tire,             2000
+TU277,  Mountain Bike Tube,             2000
+FR201,  Mountain Bike Frame,            60000
+FB201,  Mountain Bike Front Brakes,     4000
+BB201,  Mountain Bike Back Brakes,      4000
+GS201,  Mountain Bike Gear Set,         6000
+
+WH139,  Road Bike Wheel,                10000
+TR102,  Road Bike Tire,                 4000
+TU177,  Road Bike Tube,                 4000
+FB101,  Road Bike Front Brakes,         4000
+BB101,  Road Bike Back Brakes,          4000
+FR101,  Road Bike Frame,                100000
+GS101,  Road Bike Gear Set,             6000
+
+WH339,  Racing Bike Wheel,              20000
+TR302,  Racing Bike Tire,               6000
+TU377,  Racing Bike Tube,               6000
+FB301,  Racing Bike Front Brakes,       6000
+BB301,  Racing Bike Back Brakes,        6000
+GS301,  Racing Bike Gear Set,           9000
+FR301,  Racing Bike Frame,              200000
+bike201,        Mountain Bike,  WH239:2,TR202:2,TU277:2,FR201:1,FB201:1,BB201:1,GS201:1
+bike101,        Road Bike,      WH139:2,TR102:2,TU177:2,FR101:1,FB101:1,BB101:1,GS101:1
+bike301,        Racing Bike,    WH339:2,TR302:2,TU377:2,FR301:1,FB301:1,BB301:1,GS301:1
